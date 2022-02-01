@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda "Tøbal'Støre" Responsiva con JS</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- font awesome link -->
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css"
+</head>
+<body>
+
+<!-- header -->
+
+<header>
+
+<a href="#" class="logo"><i class="fas fa-ghost"></i>Tøbal'Støre</a>
+
+    <nav class ="navbar">
+        <a class="active" href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#ofertas">Ofertas</a>
+        <a href="#productos">Productos</a>
+        <a href="#review">Reseñas</a>
+        <a href="#pedidos">Pedidos</a>
+    
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+        
+
+    </div>
+
+
+</header>
+
+<!-- search -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="Ingrese su Búsqueda" name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- Inicio -->
+
+<section class="inicio" id="inicio">
+
+    <div class="swiper mySwiper inicio-slider">
+        <div class="swiper-wrapper wrapper">
+
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Compra los mejores juegos al precio mas bajo</span>
+                    <h3>Estrenos en PS4, Xbox One y Nintendo Switch</h3>
+                    <p>Puedes comprar tanto en nuestra tienda como por medio de la pagina!</p>
+                    <a href="#" class="btn">Comprar Ahora</a>
+                </div>
+                <div class="image">
+                    <img src="images/inicio-img-1.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Puedes entregar tus juegos usados como medio de pago</span>
+                    <h3>Ven a nuestra tienda y canjea tus juegos usados</h3>
+                    <p>El valor de cada juego sera definido a traves de su estado, ademas del juego que este sea.</p>
+                    <a href="#" class="btn">Ver Ubicación</a>
+                </div>
+                <div class="image">
+                    <img src="images/inicio-img-2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Vendemos de todo, desde consolas hasta videojuegos</span>
+                    <h3>Tambien hay variedad de accesorios!</h3>
+                    <p>Que esperas, ve todo lo que nuestra tienda tiene para ofrecerte!</p>
+                    <a href="#" class="btn">Comprar Ahora</a>
+                </div>
+                <div class="image">
+                    <img src="images/inicio-img-3.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+</section>
+
+<!-- Nosotros -->
+
+<section class="nosotros" id="nosotros">
+
+    <h3 class="sub-heading"> Sobre Nosotros </h3>
+    <h1 class="heading"> ¿Que queremos ser? </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="images/nosotros.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Los mejores precios de Chile</h3>
+            <p>Desde pequeños amamos los videojuegos como ustedes, pero siempre quisimos un lugar donde el precio y la calidad fueran iguales. Cansados de los abusos, decidimos crear la tienda que creemos, es la mejor tanto en atención como en precios de Chile.</p>
+            <p>Sabiendo que esto es dificil de creer o comprobar, los invitamos a visitarnos, para asi poder demostrar que podemos ser su tienda de confianza.</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>Delivery Gratis</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>Muchas Formas de Pago</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>Atención desde las 09:00am hasta 20:00pm</span>
+                </div>
+            </div>
+            <a href="#" class="btn">Saber Más</a>
+        </div>
+    </div>
+</section>
+
+<!-- Ofertas -->
+
+<section class="ofertas" id="ofertas">
+
+    <h3 class="sub-heading"> Nuestras Ofertas </h3>
+    <h1 class="heading"> Juegos Mas Vendidos </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/juego1.png" alt="">
+            <h3>Resident Evil 3 Remake (PS4 y Xbox One)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$11.990</span>
+            <a href="#" class="btn">Añadir al Carro</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/juego2.jpg" alt="">
+            <h3>Predator Hunting Ground (PS4)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <span>$8.990</span>
+            <a href="#" class="btn">Añadir al Carro</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/juego3.jpg" alt="">
+            <h3>Call of Duty Modern Warfare 2 (Xbox One)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <span>$5.990</span>
+            <a href="#" class="btn">Añadir al Carro</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/Juego4.png" alt="">
+            <h3>RainboxSix (PS3)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+
+            </div>
+            <span>$3.990</span>
+            <a href="#" class="btn">Añadir al Carro</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/juego5.jpg" alt="">
+            <h3>The Warriors (PS2)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <span>$3.990</span>
+            <a href="#" class="btn">Añadir al Carro</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/juego6.jpg" alt="">
+            <h3>Tekken Revolution</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$4.990</span>
+            <a href="#" class="btn">Añadir al Carro</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Productos -->
+
+<section class="productos" id="productos">
+
+    <h3 class="sub-heading"> Nuestros Productos </h3>
+    <h1 class="heading"> Tenemos desde consolas hasta Videojuegos </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/producto1.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Consola Xbox One</h3>
+                <p>Incluye Consola, 2 controles y un juego a elección.</p>
+                <a href="#" class="btn">Añadir al carro</a>
+                <span class="price">$349.990</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/producto2.jpeg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Mando PS4</h3>
+                <p>Mando Inalambrico PS4 color blanco edición especial.</p>
+                <a href="#" class="btn">Añadir al carro</a>
+                <span class="price">$19.990</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/producto3.jfif" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Tarjeta Gold Xbox Live</h3>
+                <p>Tarjeta de memebrisa xbox live 12 meses.</p>
+                <a href="#" class="btn">Añadir al carro</a>
+                <span class="price">$7.990</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/producto4.jfif" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Audifonos Eksa</h3>
+                <p>Audifonos gamers Eksa incluye regulador de sonido y microfono.</p>
+                <a href="#" class="btn">Añadir al carro</a>
+                <span class="price">$9.990</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/producto5.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Silla gamer Viper PRO</h3>
+                <p>Silla gamer incluye regulador de altura y repuestos de piezas.</p>
+                <a href="#" class="btn">Añadir al carro</a>
+                <span class="price">$100.990</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/producto6.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Uncharted Collection</h3>
+                <p>Colección de los primeros 3 juegos de la saga "Uncharted".</p>
+                <a href="#" class="btn">Añadir al carro</a>
+                <span class="price">$7.990</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/producto7.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Mando Xbox One</h3>
+                <p>Mando Inalambrico Xbox One color plateado edición especial.</p>
+                <a href="#" class="btn">Añadir al carro</a>
+                <span class="price">$18.990</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/producto8.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Consola PS4</h3>
+                <p>Incluye Consola, 2 controles y un juego a elección.</p>
+                <a href="#" class="btn">Añadir al carro</a>
+                <span class="price">$299.990</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/producto9.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Consola Nintendo Switch</h3>
+                <p>Incluye Consola, 2 controles y un juego a elección.</p>
+                <a href="#" class="btn">Añadir al carro</a>
+                <span class="price">$119.990</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!--review-->
+
+<section class="review" id="review">
+
+    <h3 class="sub-heading"> Reseñas de Nuestros compradores </h3>
+    <h1 class="heading"> Atrevete con Nosotros </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/persona1.jpeg" alt="">
+                    <div class="user-info">
+                        <h3>John Cena</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Excelente atención, fui a la tienda y me orientaron super bien. Contento con mi nuevo juego. Ademas de eso, te permiten reservar cosas de la tienda, para gente como yo que tiene que esperar a fin de mes.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/persona2.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Juan Bautista</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Rapida atención, fui por un control de xbox one, y por el mismo precio en que me lo cobraban en las grandes tiendas, pude llevarme este ademas de un juego.Super amables a la hora de atender, te explican lo que necesites.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/persona3.jfif" alt="">
+                    <div class="user-info">
+                        <h3>Francisca Rojas</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>A pesar de que la tienda me queda un poco lejos, compre por la pagina ya que me llamo la atención la entrega gratuita.Pense que por esto seria una entrega lenta, pero a los dos dias de realizar mi pedido, este ya estaba en casa.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/persona4.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Fernanda Massu</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Gran tienda, fui ya que necesitaba un regalo para mi hijo, no queria comprarle un juego muy violento y los trabajadores de la tienda amablemente me mostraron las alternativas,  explicandome de que trataba cada juego, muchas gracias!.</p>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- Pedidos  -->
+
+<section class="pedidos" id="pedidos">
+
+    <h3 class="sub-heading"> Realiza ahora tu pedido </h3>
+    <h1 class="heading"> Entrega gratis y rapida </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>Tu nombre</span>
+                <input type="text" placeholder="Ingresa tu Nombre">
+            </div>
+            <div class="input">
+                <span>Tu número</span>
+                <input type="number" placeholder="Ingresa tu número">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Tu pedido</span>
+                <input type="text" placeholder="Ingresa tu pedido">
+            </div>
+            <div class="input">
+                <span>Dia y Hora de Entrega</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Tu Dirección</span>
+                <textarea name="" placeholder="Ingresa tu dirección (Y datos relevantes si es necesario.)" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>Forma de pago e Información Extra</span>
+                <textarea name="" placeholder="Ingresa la forma de pago que realizaras al momento de llegar el pedido (E información Extra si es necesaria)." id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <input type="submit" value="Realizar Pedido" class="btn">
+
+    </form>
+
+</section>
+
+<!--footer -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Donde Encontrarnos</h3>
+            <a href="#">Rondizonni 654, Santiago</a>
+            <a href="#">Bellavista 65, Santiago</a>
+            <a href="#">Portal Lion 234, Local 265, Santiago </a>
+            <a href="#">Puerto alegre 7867, Valparaiso</a>
+            <a href="#">Juan perez Pereira 7722, Arica</a>
+        </div>
+
+        <div class="box">
+            <h3>Enlaces de la Pagina</h3>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Ofertas</a>
+            <a href="#">Productos</a>
+            <a href="#">Reseñas</a>
+            <a href="#">Pedidos</a>
+        </div>
+
+        <div class="box">
+            <h3>Contactanos</h3>
+            <a href="#">+562275664576</a>
+            <a href="#">+562275235676</a>
+            <a href="#">tobalstore@gmail.com</a>
+            <a href="#">cristobal.trabajo@gmail.com</a>
+
+        </div>
+
+        <div class="box">
+            <h3>Siguenos</h3>
+            <a href="#">instagram</a>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+        </div>
+
+    </div>
+
+    <div class="credit"> Desarrollado y diseñado por <span>Cristóbal Lavanderos.</span> © 2022. Reservados todos los derechos. </div>
+
+</section>
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- JS link -->
+<script src="js/script.js"></script>
+    
+</body>
+</html>

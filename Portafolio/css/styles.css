@@ -15,6 +15,7 @@
     --text-color: #54423D;
     --first-color-light: #EAE7E6;
     --first-color-lighten: #FFFAFA;
+    --insignia-color: #f70000;
 
     --body-font: 'Poppins', sans-serif;
     --h1-font-size: 1.5rem;
@@ -286,6 +287,36 @@ img{
     color: var(--first-color-lighten);
 }
 
+.insignia_buttonn{
+    width: 100%;
+}
+
+
+.buttonn{
+    display: inline-block;
+    background-color: var(--insignia-color);
+    color: var(--first-color-lighten);
+
+    font-weight: var(--font-semi-bold);
+    border-radius: .5rem;
+    transition: .3s;
+}
+
+.buttonn:hover{
+    background-color: #f70000;
+}
+
+.buttonn_light{
+    background-color: var(--first-color-lighten);
+    color: var(--insignia-color);
+}
+
+.buttonn_light:hover{
+    color: var(--first-color-lighten);
+}
+
+
+
 .sobremi_container{
     row-gap: 2rem;
     align-items: center;
@@ -423,6 +454,8 @@ img{
     font-weight: var(--font-semi-bold);
     text-align: center;
 }
+
+
 
 .header:after{
     content: '';
